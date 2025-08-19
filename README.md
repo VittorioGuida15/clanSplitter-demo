@@ -4,9 +4,16 @@ ClanSplitter è una piccola applicazione web, legata al mondo del videogioco Cla
 
 Attualmente deployata al seguente URL: https://clansplitter.netlify.app/
 
-L'applicazione è costruita con un'architettura moderna ibrida:
-   -   **Frontend:** *React (Vite)* e ospitata su *Netlify*.
-   -   **Backend:** *Node.js (Express)* e ospitato su *Render* per ottenere IP statici necessari alle API di Clash of Clans.
+## 💻 Tecnologie Utilizzate
+L'applicazione è costruita con un'architettura ibrida:
+   -   **Frontend:**
+         - *React (Vite)* 
+         - ospitata su *Netlify*
+   -   **Backend:**
+         - *Node.js (Express)*
+         - *API di Clash of Clans*
+         - ospitato su *Render* per ottenere IP statici necessari alle API di Clash of Clans.
+         
 
 ## ⚡️ Funzionalità
 
@@ -52,6 +59,7 @@ clanSplitter-serverized/
 ```
 
 ### 👷🏻‍♂️ Autore: Vittorio Guida
+
 
 
 
