@@ -2,18 +2,7 @@
 
 ClanSplitter è una piccola applicazione web, legata al mondo del videogioco Clash of Clans, pensata per aiutare il capo e co-capi a organizzare la CWL (Lega delle Guerre tra Clan): recupera i membri di un clan principale, li ordina per TH e ti permette di suddividerli rapidamente in più clan, generando messaggi pronti da condividere.
 
-Attualmente deployata al seguente URL: https://clansplitter.netlify.app/
-
-## 💻 Tecnologie Utilizzate
-L'applicazione è costruita con un'architettura ibrida:
-   -   **Frontend:**
-         - *React (Vite)* 
-         - ospitata su *Netlify*
-   -   **Backend:**
-         - *Node.js (Express)*
-         - *API di Clash of Clans*
-         - ospitato su *Render* per ottenere IP statici necessari alle API di Clash of Clans.
-         
+Attualmente deployata al seguente URL: https://clansplitter.netlify.app/         
 
 ## ⚡️ Funzionalità
 
@@ -28,6 +17,16 @@ L'applicazione è costruita con un'architettura ibrida:
 
 ## 🎬 Demo Video
 ![Demo](risorse/clanSplitter-demo.gif)
+
+## 💻 Tecnologie Utilizzate
+L'applicazione è costruita con un'architettura ibrida:
+   -   **Frontend:**
+         - *React (Vite)* 
+         - ospitata su *Netlify*
+   -   **Backend:**
+         - *Node.js (Express)*
+         - *API di Clash of Clans*
+         - ospitato su *Render* per ottenere IP statici necessari alle API di Clash of Clans.
 
 ## 📁 Struttura del progetto
 
@@ -59,6 +58,7 @@ clanSplitter-serverized/
 ```
 
 ### 👷🏻‍♂️ Autore: Vittorio Guida
+
 
 
 
