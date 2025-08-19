@@ -20,7 +20,7 @@ L'applicazione è costruita con un'architettura moderna ibrida:
 ⚠️ Limitazioni. **Cold start (Render free):** *La prima chiamata dopo un periodo di inattività può essere lenta; le successive sono rapide.*
 
 ## 🎬 Demo Video
-<video src="risorse/demo.mp4" controls width="100%"></video>
+<video src="[risorse/demo.mp4](https://github.com/VittorioGuida15/clanSplitter-demo/blob/main/risorse/clanSplitter-demo.mp4)" controls width="100%"></video>
 
 ## 📁 Struttura del progetto
 
@@ -52,5 +52,6 @@ clanSplitter-serverized/
 ```
 
 ### 👷🏻‍♂️ Autore: Vittorio Guida
+
 
 
