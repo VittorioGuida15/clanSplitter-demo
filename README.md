@@ -14,7 +14,9 @@ Attualmente deployata al seguente URL: https://clansplitter.netlify.app/
    -   **Generazione automatica di messaggi:** Crea messaggi di testo formattati per ogni clan, con la lista dei giocatori assegnati, pronti per essere copiati.
    -   **Salvataggio locale:** Tutte le configurazioni dei clan vengono salvate nel browser, quindi non è necessario reinserirle a ogni avvio.
 
-⚠️ Limitazioni. **Cold start (Render free):** *La prima chiamata dopo un periodo di inattività può essere lenta; le successive sono rapide.*
+⚠️ Limitazioni:
+   - **Cold start (Render free):** *La prima chiamata dopo un periodo di inattività può essere lenta; le successive sono rapide.* 
+   - 💡 È possibile utilizzare un servizio di ping come *Cron-job* per mantenere il serve semrpe attivo.*
 
 ## 🎬 Demo Video
 ![Demo](risorse/clanSplitter-demo.gif)
@@ -27,7 +29,8 @@ L'applicazione è costruita con un'architettura ibrida:
    -   **Backend:**
          - *Node.js (Express)*
          - *API di Clash of Clans*
-         - ospitato su *Render* per ottenere IP statici necessari alle API di Clash of Clans.
+         - Proxy RoyaleAPI per ottenere un IP statico necessaro alle API di Clash of Clans.
+         - ospitato su *Render* 
 
 ## 📁 Struttura del progetto
 
@@ -59,6 +62,7 @@ clanSplitter-serverized/
 ```
 
 ### 👷🏻‍♂️ Autore: Vittorio Guida
+
 
 
 
