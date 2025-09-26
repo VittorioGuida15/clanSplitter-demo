@@ -16,7 +16,7 @@ Attualmente deployata al seguente URL: https://clansplitter.netlify.app/
 
 ⚠️ Limitazioni:
    - **Cold start (Render free):** *La prima chiamata dopo un periodo di inattività può essere lenta; le successive sono rapide.* 
-   - 💡 È possibile utilizzare un servizio di ping come *Cron-job* per mantenere il serve semrpe attivo.*
+   - *💡 È possibile utilizzare un servizio di ping come *Cron-job* per mantenere il serve semrpe attivo.*
 
 ## 🎬 Demo Video
 ![Demo](risorse/clanSplitter-demo.gif)
@@ -62,6 +62,7 @@ clanSplitter-serverized/
 ```
 
 ### 👷🏻‍♂️ Autore: Vittorio Guida
+
 
 
 
